@@ -1,7 +1,8 @@
 .container_12
 {
-  background: #e3e3e3;
-  /*background: pink;*/
+  /*background: #e3e3e3;*/
+  background: #0066FF;
+  /*margin-bottom: 30px;*/
 }
 .report
 {
@@ -10,27 +11,32 @@ margin-top: 50px;
 
 header
 {
-  background: #e3e3e3;
-/*background: orange;*/
+
+  background: white;
+  /*background: #e3e3e3;*/
+  /*background: #0066FF;*/
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 
 header h1
 {
+
   font-family: sans-serif;
   font-size: 50px;
 
 }
 .meta a
 {
-  color: blue;
+  color: black;
   font-style: bold;
   font-size: 18px;
 }
 .meta a:hover
 {
 
-color: black;
+color: red;
 }
 nav
 {
@@ -66,7 +72,34 @@ section a
 
 .veg-pizza p
 {
+  font-family: 'Lora', sans-serif;  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
   margin: 0;
+  color:#FF0000 ;
+  margin-bottom: 10px;
+}
+.non-vegpizza p
+{
+  font-family: 'Lora', sans-serif;
+  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
+  margin: 0;
+   /*margin-top: 5px;*/
+  color:#E80000;
+}
+.sides p
+{
+  font-family: 'Lora', sans-serif;
+  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
+   margin-top: 10px;
+  color:#E80000;
 }
 .veg-pizza h3
 {
@@ -87,10 +120,11 @@ height: 120px;
 }*/
 .sides h3
 {
-/*background: url(../img/Wallmart.png) no-repeat;*/
+
 text-indent: -9999px;
 width: 180px;
 height: 120px;
+margin:0;
 }
 /*.sides p{
   margin-bottom: 2px;
@@ -101,36 +135,72 @@ height: 120px;
   text-indent: -9999px;
   width: 180px;
   height: 120px;
+  /*margin: 0;*/
 }
-/*.yummy
+.yummy p
 {
-  float:right;
-}*/
+  font-family: 'Lora', sans-serif;
+  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
+   margin-top: 10px;
+  color:#E80000;
+}
+.meal p
+{
+  font-family: 'Lora', sans-serif;
+  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
+   margin-top: 10px;
+  color:#E80000;
+}
 
 .meal h3
 {
   text-indent: -9999px;
   width: 180px;
   height: 120px;
+  margin: 0;
 }
 
+.combos h4
+{
+  margin-bottom:5px;
+}
 
 .combos{
-  float: left;;
+  float: left;
+
+  /*margin: 0;*/
 }
 .combos h3
 {
   text-indent: -9999px;
   width: 180px;
   height: 120px;
+  margin: 0;
 }
-
+.combos p
+{
+  font-family: 'Lora', sans-serif;
+  /*font-family: 'Oswald', arial ,monospace,serif;*/
+  font-style: bold;
+  font-weight: 140px;
+  font-size:15px;
+   margin-top: 10px;
+  color:#E80000;
+}
 
 .hero-unit
 {
     width: auto;
-    background-color:rgb(200,220,250);
-    background-color:#EEEEEE;
+    background: #0066FF;
+
+    /*background-color:rgb(200,220,250);*/
+    /*background-color:#EEEEEE;*/
 
   }
 .hero-img img
@@ -138,23 +208,40 @@ height: 120px;
     /*margin-right: auto;*/
     width:100%;
     height:400px;
+    position: relative;
 }
 .hero-unit h1
 {
-    color: blue;
+     /*font-family: 'Lato',monospace, sans-serif ;*/
+    font-family: 'Oswald', Arial, serif; font-weight: 400;
+    font-style: italic;
+    color: yellow;
     font-size: 60px;
     text-align: center;
-    text-shadow: 5,8,4,gray;
-    letter-spacing: -1px;
+    text-shadow: 4px 4px red;
+    /*letter-spacing: -1px;
     line-height: 1;
-    margin-bottom: 0;
-
+    margin-bottom:0;
+    margin-top: 40px;
+    text-indent:px;*/
+   position: absolute;
+   top: 580px;
+   left: 0;
+   width: 100%;
 }
 .hero-unit h2
 {
-    color: blue;
+    font-family: 'Oswald', Arial, serif; font-weight: 200;
+    font-weight: lighter;
+    color: yellow;
     text-align: center;
-    font-size: 25px;
+    font-size:30px;
+    text-shadow: 3px 4px red;
+    position: absolute;
+    top: 680px;
+    left: 0;
+    width: 100%;
+
 
 }
 
@@ -167,33 +254,107 @@ height: 120px;
   height: 200px;
 }
 
-.Paragraph
+.ParagraphRadarChart h2
 {
+  color:#FF0000;
   display:block;
   position: relative;
   text-align: left;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+  font-weight: 200;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.ParagraphRadarChart h4
+{
+  color:black;
+  display:block;
+  position: relative;
+  text-align: left;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: oblique;
+
+}
+.ParagraphRadarChart p
+{
+  color:#CCFF99;
+  display:block;
+  position: relative;
+  text-align: left;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+  font-weight: 200;
+  font-size: 20px;
+  font-style: oblique;
+
+}
+.ParagraphDoughnut h2
+{
+  color:#FF0000;
+  display:block;
+  position: relative;
+  text-align: left;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+  font-weight: 200;
+  font-size: 35px;
+  font-style: oblique;
+
+}
+
+.ParagraphDoughnut h4
+{
+  color:black;
+  display:block;
+  position: relative;
+  text-align: left;
+  font-family: 'Lora', Arial, serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: oblique;
+
+}
+
+.ParagraphDoughnut p
+{
+  color:#CCFF99;
+  display:block;
+  position: relative;
+  text-align: left;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+  font-weight: 200;
+  font-size: 20px;
+  font-style: oblique;
 
 }
 
 
-.footer
+.Foo footer
 {
   margin-top: 50px;
   width:100%;
-  height: 300px;
-  background:#f5f5f5;
-  color:#ccc;
+  height: 170px;
+  background-color:grey;
+  /*color:#ccc;*/
+}
+
+.Foo a:hover
+{
+
 }
 .container  p{
 
-  color:blue;
+  color:#FF0033;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15px;
   text-align: right;
+  font-family: 'Lora', Arial, serif; font-weight: 200;
+
 }
 
 #Copyrights p{
   color: black;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
 }
